@@ -1,3 +1,7 @@
+variable "subid" {
+  description = "List of usernames for the virtual machines"
+  type        = string
+}
 variable "vm_names" {
   description = "List of names for the virtual machines"
   type        = string
@@ -62,6 +66,7 @@ variable "owner" {
   description = "name of resource"
   type        = string
 }
+
 
 
 
