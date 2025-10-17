@@ -1,6 +1,7 @@
 vm_names       = "regvm15102025"
 username       = "azureadmin"
 password       = "azureadmin@123"
+subid= "bf18f464-1469-4216-834f-9c6694dbfe26"
 subnetname = "default" 
 vnetname = "asr-vm-vnet"
 RG = "cloud-demo"
@@ -14,6 +15,7 @@ bootdiagnostic = "https://testcloud001423.blob.core.windows.net/"
 project = "regression"
 duration = "one day"
 owner = "Irfana"
+
 
 
 
