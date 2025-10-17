@@ -1,5 +1,6 @@
 provider "azurerm" {
   features {}
+  subscription_id = var.subid
 }
 
 terraform {
@@ -87,5 +88,6 @@ resource "azurerm_virtual_machine" "myterraformvm" {
     storage_uri = var.bootdiagnostic
   }
 }
+
 
 
